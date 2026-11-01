@@ -23,7 +23,7 @@ Use this map for the canonical record or the project’s explicitly linked equiv
 | Requirements | `requirements/decisions.md` | [record-decision](../record-decision/SKILL.md) |
 | Requirements | `requirements/questions.md` | [resolve-questions](../resolve-questions/SKILL.md) |
 | Design | `design/domain-model.md` | [design-domain](../design-domain/SKILL.md) |
-| Design | `design/ux-design.md`, optional `design/design-language.md` | [design-ux](../design-ux/SKILL.md) |
+| Design | `design/ux-design.md`, optional `design/design-language.md`, and optional prototype linked from the UX record | [design-ux](../design-ux/SKILL.md) |
 | Design | `design/architecture-design.md` | [design-architecture](../design-architecture/SKILL.md) |
 | Design | `design/api-design.md` | [design-api](../design-api/SKILL.md) |
 | Design | `design/database-design.md` and optional schema/ERD records | [design-database](../design-database/SKILL.md) |
@@ -58,6 +58,10 @@ Treat the user's requested work as the current unit of delivery. Continue it wit
 Drafting, analysis, and consistency checks may continue while a checkpoint is pending. Label preliminary material and missing evidence accurately. Do not repeatedly seek approval already given within its stated scope; ask only when an unresolved approval or fact blocks a dependent action. Apply this interaction at established phase or slice checkpoints, not after every artifact edit. Continue independent authorized work while dependent work waits, and keep question batches progressing automatically until a genuine checkpoint; do not reopen settled questions.
 
 When setting up a new initiative, copy and adapt [the portable SDLC template](assets/sdlc.md) to `docs/sdlc.md` only when the project has no equivalent lifecycle guide. Scaffold `decisions.md` and `questions.md` in all four phases when creating the initiative structure. Use the [questions template](../resolve-questions/assets/questions.md). Never overwrite established conventions or create a second source of truth.
+
+## Offer a prototype during UX design
+
+Treat a prototype as an optional design deliverable that can make a substantial UX design easier to review. Before asking the owner for a detailed review or approval of the written UX, briefly explain the proposed flows and ask whether a prototype would help. Use the [UX prototype-choice workflow](../design-ux/SKILL.md#offer-a-prototype-before-ux-approval). Respect an existing request, acceptance, decline or deferral for the current scope; do not ask again merely because another skill takes over. If selected, the prototype can be the main review surface, with the UX record providing supporting rules, states and traceability. Link the artifact and actual walkthrough results/limits from that record. Declining it adds no deliverable or approval gate; creating it does not itself approve the UX.
 
 ## Offer independent design review
 

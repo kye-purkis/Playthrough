@@ -27,6 +27,14 @@ Use [the UX-design template](assets/ux-design-template.md) for the primary recor
 
 Use it only for a repeatable interface. Capture reference screens or system references, visual principles, tokens with `Token | Value | Use | Status`, component behavior/states, and responsive checks. Distinguish approved brand/product direction from illustrative proposals. Do not carry a previous project's palette, typography, imagery, or components into a new project.
 
+## Offer a prototype before UX approval
+
+A prototype is an optional design deliverable intended to make the UX easier to understand and review. Once the main journeys and screens can be outlined in plain language, ask: “Would you like a prototype as an optional deliverable to help review these UX flows?” Ask before expecting the owner to review or approve a substantial written UX design; reading or approving the full document is not a prerequisite. Respect a choice or instruction already given for the current scope; do not repeat the question after a handoff, review or minor correction. Offer it before the optional independent review so a selected prototype can be included.
+
+If selected, use the prototype as the main review surface when that suits the user, with the UX record supplying supporting detail and traceability. Create a scoped, reviewable artifact using appropriate available skills/tools; choose wireframes or clickable interactions to suit the question being tested and the user's preferences. Cover the relevant main flow, consequential failure/empty/permission states, and phone/desktop behaviour where applicable. Identify mock data and simulated payments/services, record what was actually walked through, and reconcile valid findings into the UX design. Do not treat a plan, screenshots or an untested prototype as proof of interactions or usability. Creation does not imply publication, production integration, UX approval or permission to start the next phase.
+
+Link the optional deliverable from the UX record, using an established local artifact location or the selected tool’s artifact link. Record the choice, review approach, scope, observed results and remaining limits there; use the existing phase questions/decisions workflow for the response where needed. If declined, record that choice and proceed to normal review/approval without adding a prototype gate. If deferred, retain the stated revisit point and do not silently treat it as a decline or claim prototype work complete.
+
 ## Finish well
 
 List concrete validation and review questions, including untested journeys, accessibility checks, private-data exposure, and responsive behavior. Check journeys agree with the domain model and API/architecture records can support stated states without silently deciding mechanics.
