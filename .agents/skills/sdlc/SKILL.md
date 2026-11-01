@@ -23,7 +23,7 @@ Use this map for the canonical record or the project’s explicitly linked equiv
 | Requirements | `requirements/decisions.md` | [record-decision](../record-decision/SKILL.md) |
 | Requirements | `requirements/questions.md` | [resolve-questions](../resolve-questions/SKILL.md) |
 | Design | `design/domain-model.md` | [design-domain](../design-domain/SKILL.md) |
-| Design | `design/ux-design.md`, optional `design/design-language.md`, and optional prototype linked from the UX record | [design-ux](../design-ux/SKILL.md) |
+| Design | `design/ux-design.md`, `design/design-language.md` when prototyping (otherwise optional), and optional prototype linked from the UX record | [design-ux](../design-ux/SKILL.md) |
 | Design | `design/architecture-design.md` | [design-architecture](../design-architecture/SKILL.md) |
 | Design | `design/api-design.md` | [design-api](../design-api/SKILL.md) |
 | Design | `design/database-design.md` and optional schema/ERD records | [design-database](../design-database/SKILL.md) |
@@ -61,7 +61,7 @@ When setting up a new initiative, copy and adapt [the portable SDLC template](as
 
 ## Offer a prototype during UX design
 
-Treat a prototype as an optional design deliverable that can make a substantial UX design easier to review. Before asking the owner for a detailed review or approval of the written UX, briefly explain the proposed flows and ask whether a prototype would help. Use the [UX prototype-choice workflow](../design-ux/SKILL.md#offer-a-prototype-before-ux-approval). Respect an existing request, acceptance, decline or deferral for the current scope; do not ask again merely because another skill takes over. If selected, the prototype can be the main review surface, with the UX record providing supporting rules, states and traceability. Link the artifact and actual walkthrough results/limits from that record. Declining it adds no deliverable or approval gate; creating it does not itself approve the UX.
+Treat a prototype as an optional design deliverable that can make a substantial UX design easier to review. Before asking the owner for a detailed review or approval of the written UX, briefly explain the proposed flows and ask whether a prototype would help. Use the [UX prototype-choice workflow](../design-ux/SKILL.md#offer-a-prototype-before-ux-approval). Respect an existing request, acceptance, decline or deferral for the current scope; do not ask again merely because another skill takes over. If selected, establish the [design-language prerequisite](../design-ux/SKILL.md#establish-design-language-before-prototyping) before implementation or delegation: use the existing record or create it first, and resolve missing visual direction with the owner. Do not infer the desired style from the written product flows. The prototype can then be the main review surface, with the UX record providing supporting rules, states and traceability. Link the artifact and actual walkthrough results/limits from that record. Declining it adds no deliverable or approval gate; creating it does not itself approve the UX.
 
 ## Offer independent design review
 

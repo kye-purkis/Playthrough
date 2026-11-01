@@ -39,6 +39,7 @@ This design covers [scope and users]. [Links to PRD, decisions, and relevant rec
 ## Optional prototype deliverable
 
 - **Choice:** [Not yet asked / Accepted / Declined / Deferred; response evidence and any revisit point.]
+- **Design-language prerequisite:** [Link to existing or newly created design-language record; agreed direction/source and outstanding proposals. Establish before implementation/delegation.]
 - **Review approach:** [Prototype as the main review surface with this record as supporting detail, or written-design review; reflect the user’s choice.]
 - **Scope and fidelity:** [Flows/states, phone/desktop coverage and wireframe/clickable scope, if accepted.]
 - **Artifact:** [Link/location, or not created with reason. Identify mock data and simulated services.]

@@ -2,7 +2,9 @@
 
 **Status:** [What is approved, proposed, and pending] · **Updated:** YYYY-MM-DD
 
-This is reusable interface guidance for [scope]. It does not approve product behavior beyond cited sources.
+This is reusable interface guidance for [scope]. Establish this record and agree any missing visual direction before prototype implementation or delegation. It does not approve product behavior beyond cited sources.
+
+**Direction authority:** [Owner-approved references/preferences and scope, or pending — prototype implementation awaits agreement. Distinguish agreed direction from proposed token/component details.]
 
 ## References and visual principles
 
