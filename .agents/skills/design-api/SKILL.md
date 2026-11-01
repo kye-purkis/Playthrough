@@ -27,3 +27,5 @@ Use [the API-design template](assets/api-design-template.md). Match an existing 
 ## Finish well
 
 List unresolved contract questions and review checks: UX state support, privacy projections, transaction behavior, API/database alignment, compatibility, security, and implementation verification. Cite only approved sources for confirmed behavior and label the rest.
+
+After completing this design or a material revision, use the [optional independent design-review workflow](../sdlc/SKILL.md#offer-independent-design-review) to link the result, name the next lifecycle step, and offer a subagent review/stress test before normal approval.

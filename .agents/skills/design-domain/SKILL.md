@@ -27,3 +27,5 @@ Use [the domain-model template](assets/domain-model-template.md) as the informat
 ## Finish well
 
 Add focused remaining-review questions for unresolved rules, risky assumptions, data ownership, lifecycle edge cases, and transaction boundaries. Reconcile dependent records when authorized, or report the affected record and needed follow-up. Confirm the diagram, table, status, dates, authority, and links are consistent.
+
+After completing this design or a material revision, use the [optional independent design-review workflow](../sdlc/SKILL.md#offer-independent-design-review) to link the result, name the next lifecycle step, and offer a subagent review/stress test before normal approval.

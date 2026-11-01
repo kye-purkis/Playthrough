@@ -27,3 +27,5 @@ Use [the architecture template](assets/architecture-design-template.md). Retain 
 ## Finish well
 
 Separate approved constraints from hypotheses and preserve authority for each. Link dependencies and decisions with relative links, name risks and next actions, and verify diagram/table narrative agrees with API/database records without choosing implementation internals by implication.
+
+After completing this design or a material revision, use the [optional independent design-review workflow](../sdlc/SKILL.md#offer-independent-design-review) to link the result, name the next lifecycle step, and offer a subagent review/stress test before normal approval.

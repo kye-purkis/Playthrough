@@ -53,3 +53,5 @@ Keep Mermaid source editable and readable. Make the diagram a relationship map, 
 ## Completion check
 
 Before handoff, verify paths and relative links, status/authority labels, decision references, and agreement between the PRD/domain/API, dictionary, and ERD. Report the documents changed, approved versus pending choices, and the next technical or review action. Do not claim schema validation, migrations, performance, isolation, or concurrency testing occurred unless evidence exists.
+
+After completing this design or a material revision, use the [optional independent design-review workflow](../sdlc/SKILL.md#offer-independent-design-review) to link the result, name the next lifecycle step, and offer a subagent review/stress test before normal approval.

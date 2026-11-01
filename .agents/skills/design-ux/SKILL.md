@@ -30,3 +30,5 @@ Use it only for a repeatable interface. Capture reference screens or system refe
 ## Finish well
 
 List concrete validation and review questions, including untested journeys, accessibility checks, private-data exposure, and responsive behavior. Check journeys agree with the domain model and API/architecture records can support stated states without silently deciding mechanics.
+
+After completing this design or a material revision, use the [optional independent design-review workflow](../sdlc/SKILL.md#offer-independent-design-review) to link the result, name the next lifecycle step, and offer a subagent review/stress test before normal approval.

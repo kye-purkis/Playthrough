@@ -59,6 +59,16 @@ Drafting, analysis, and consistency checks may continue while a checkpoint is pe
 
 When setting up a new initiative, copy and adapt [the portable SDLC template](assets/sdlc.md) to `docs/sdlc.md` only when the project has no equivalent lifecycle guide. Scaffold `decisions.md` and `questions.md` in all four phases when creating the initiative structure. Use the [questions template](../resolve-questions/assets/questions.md). Never overwrite established conventions or create a second source of truth.
 
+## Offer independent design review
+
+After completing each design deliverable or material revision, link the concrete reviewable artifact, name the next lifecycle step, and offer an independent review before normal approval: “Would you like an independent subagent to review and stress-test this <design> and have me address any valid concerns before approval?” Substitute the design's name. This is optional, not an additional approval checkpoint; do not repeat it after minor edits or for a scope already reviewed, authorized or declined unless materially changed. If review is already authorized, carry it out without asking again. A decline returns to the normal approval/checkpoint flow.
+
+Acceptance authorizes a scoped review and corrections, not design approval or permission to start the next phase. Give an independent subagent the applicable design skill, approved requirements and current decisions, the design and relevant dependencies, and representative normal, failure and boundary scenarios. Request read-only findings with evidence, impact and suggested corrections; do not prescribe conclusions or let the reviewer change shared records.
+
+Validate findings against the governing requirements and decision authority. Correct valid concerns and reconcile directly affected canonical records within scope; do not silently change product decisions. Record unresolved owner choices through [resolve-questions](../resolve-questions/SKILL.md), and use [record-decision](../record-decision/SKILL.md) for material decisions or changes. Keep review outcomes, fixes, remaining risks and evidence/limits in the existing design/review sections rather than extra handoff files. Have consequential fixes rechecked with a focused review; report remaining concerns instead of cycling indefinitely.
+
+Report what was actually reviewed and corrected, then return to the normal approval and continuation rules above. Do not claim an unavailable or unrun review completed, or imply conceptual review proves implementation, performance, security testing or provider correctness. Required evidence and owner approvals remain separate.
+
 ## Handoff
 
 Before reporting, check that records use canonical or linked established paths, cross-links resolve, IDs were preserved, decisions show authority/status, and requirements connect to stories, evidence, and release outcomes as applicable. Do not create a separate handoff artifact for this report. Report changed records, the completion status of the requested work, current stage, unmet checkpoints, and the next usable action. If the requested work is incomplete, state that before listing any next action. At a checkpoint, include the explicit approval request or continuation question required above; naming a next action alone is insufficient.
